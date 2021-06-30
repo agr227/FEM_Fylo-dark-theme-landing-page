@@ -1,0 +1,316 @@
+html {
+    max-width: 100%;
+    background-image: url("/images/bg-curvy-desktop.svg");
+    background-color: hsla(217, 27%, 13%, 0.98);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: inline-block;
+    width: 90%;
+    padding: 75px 75px;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    vertical-align: middle;
+    text-align: end;
+}
+
+#intro-logo {
+    float: left;
+    opacity: 80%;
+}
+
+ul {
+    float: right;
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    padding-left: 75px;
+}
+
+li a {
+    color: rgba(255, 255, 255, 0.66);
+    text-decoration: none;
+    font-weight: 400px;
+}
+
+li a:hover {
+    color: hsl(0, 0%, 100%);
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+main {
+    font-family: "Raleway", sans-serif;
+}
+
+.intro-main {
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+
+}
+
+.intro-illustration {
+    margin-bottom: 50px;
+}
+
+.intro-h1 {
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    color: white;
+    font-size: 40px;
+    font-weight: 800px;
+    line-height: 60px;
+    max-width: 50%;
+}
+
+.intro-p {
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    color: rgba(255, 255, 255, 0.66);
+    font-size: 24px;
+    font-weight: 400px;
+    line-height: 38px;
+    max-width: 43%;
+}
+
+.get-started {
+    display: inline-block;
+    margin: 25px;
+    background-color: hsl(176, 68%, 64%, 0.934);
+    border: 0px solid currentColor;
+    border-radius: 50px;
+    color: white;
+    padding: 20px 130px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.get-started:hover {
+    background-color: hsl(176, 58%, 69%);
+}
+
+#table-info {
+    display: inline-grid;
+    text-align: center;
+    padding: 10% 10% 10% 18%;
+    grid-template-columns: 35% 35%;
+    grid-template-rows: 50% 50%;
+    gap: 100px 200px;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+}
+
+.grid-item {
+    margin: 0;
+    width: auto;
+    color: rgba(255, 255, 255, 0.66);
+}
+
+.grid-item p {
+    color: white;
+    font-size: 18px;
+    font-weight: 800px;
+}
+
+.productive-container {
+    margin: 0;
+    width: auto;
+    max-width: 100%;
+}
+
+#productive-img {
+    padding-left: 100px;
+}
+
+.stay-productive {
+    float: right;
+    max-width: 40%;
+    margin: 100px 50px 0 0;
+    color: white;
+}
+
+.h3 {
+    font-size: 48px;
+    font-weight: 800px;
+}
+
+.see-how {
+    color: hsl(176, 68%, 64%);
+}
+
+.see-how:hover {
+    color: white;
+}
+
+.quote-img {
+    position: absolute;
+    float: left;
+    z-index: -1;
+    left: 10.5%;
+}
+
+#testimony {
+    margin: 100px;
+    padding: 25px 0px 25px 50px;
+    width: auto;
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    gap: 30px 100px;
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+
+.satish {
+    background-color: hsl(219, 30%, 18%);
+    box-shadow: 8px 8px rgb(128, 128, 128, 0.01), 15px 15px rgb(128, 128, 128, 0.006);
+    border-radius: 5px;
+    padding: 25px 30px;
+    text-align: left;
+    width: 100%;
+}
+
+.bruce {
+    background-color: hsl(219, 30%, 18%);
+    box-shadow: 8px 8px rgb(128, 128, 128, 0.01), 15px 15px rgb(128, 128, 128, 0.006);
+    border-radius: 5px;
+    padding: 25px 30px;
+    text-align: left;
+    width: 100%;
+}
+
+.iva {
+    background-color: hsl(219, 30%, 18%);
+    box-shadow: 8px 8px rgb(128, 128, 128, 0.01), 15px 15px rgb(128, 128, 128, 0.006);
+    border-radius: 5px;
+    padding: 25px 30px;
+    text-align: left;
+    width: 100%;
+}
+
+.test-text {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.profile-img {
+    float: left;
+    height: 25px;
+    width: auto;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+
+.name {
+    margin: 0;
+    padding: 10px 0 0 30px;
+    font-size: 10px;
+    font-weight: 800px;
+}
+
+.position {
+    margin: 0;
+    padding: 0 30px;
+    vertical-align: text-top;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.681);
+}
+
+#sign-up {
+    position: absolute;
+    max-width: 66%;
+    left: 20%;
+    top: 370%;
+    text-align: center;
+    color: white;
+    background-color: hsl(217, 28%, 15%);
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.166), 15px 15px rgba(0, 0, 0, 0.095);
+    border-radius: 10px;
+}
+
+.early {
+    margin-top: 5%;
+    font-size: 28px;
+    font-weight: 900px;
+}
+
+.call-to {
+    margin: 0 0 3% 15%;
+    font-size: 12px;
+    font-weight: 400px;
+    width: 63%;
+    line-height: 16px;
+}
+
+input {
+    width: 45%;
+    margin-bottom: 5%;
+    margin-right: 2%;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 50px;
+    color: grey;
+}
+
+.button {
+    padding: 15px 40px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 800px;
+    color: white;
+    background-color: hsla(176, 68%, 64%, 0.934);
+}
+
+.button:hover {
+    background-color: hsl(176, 58%, 69%);
+}
+
+footer {
+    margin: 300px 0 0 0;
+    padding: 13% 7%;
+    background-color: hsl(216, 53%, 9%);
+    color: rgba(255, 255, 255, 0.722);
+}
+
+.container {
+    display: flex;
+    flex-grow: 1;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 5%;
+    border: 3px solid red;
+}
+
+.footer-1 {
+    display: flex;
+    vertical-align: middle;
+    border: 3px solid red;
+}
+
+.footer-2 {
+    /* display: flex;
+    margin-left: auto;
+    margin-right: auto; */
+    border: 3px solid red;
+}
+
+.footer-3 ul {
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0; */
+    border: 3px solid red;
+}
